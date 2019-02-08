@@ -1,24 +1,12 @@
-# README
+# Creating a REST API with Ruby on Rails.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This was created as an accompanyment to the following guide written on Medium:
 
-Things you may want to cover:
+https://medium.com/@oliver.seq/creating-a-rest-api-with-rails-2a07f548e5dc
 
-* Ruby version
+No special gems were used, I simply installed Rails as an api and used PostgreSQL for the database.
 
-* System dependencies
 
-* Configuration
+## To run:
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+rails new rest-api-guide --api --database=postgresql
